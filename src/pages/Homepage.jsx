@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import styles from "./Homepage.module.css";
 import { Link } from "react-router-dom";
 import PageNav from "../components/PageNav";

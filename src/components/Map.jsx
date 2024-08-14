@@ -18,7 +18,6 @@ import { useUrlPosition } from "../Hooks/useUrlPosition";
 function Map() {
   const { cities } = useCities();
   const [maPosition, setmaPosition] = useState([40, 0]);
-console.log(cities);
 
   // Hooks
 
@@ -50,6 +49,7 @@ console.log(cities);
       )}
       <MapContainer
         // center={maPosition}
+        key={Math.random()}
         center={maPosition}
         zoom={13}
         scrollWheelZoom={true}

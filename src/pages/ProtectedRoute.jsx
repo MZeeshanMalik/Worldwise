@@ -8,7 +8,6 @@ function ProtectedRoute({ children }) {
 	useEffect(
 		function () {
 			if (!isAuthincated) navigate('/');
-            console.log(children);
             
 		},
 		[isAuthincated, navigate]
